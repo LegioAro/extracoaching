@@ -1,0 +1,29 @@
+.title {
+  font-family: var(--font-text-2);
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 125%;
+  text-transform: uppercase;
+  &--small {
+    font-size: 40px;
+  }
+  &--big {
+    font-size: 60px;
+    line-height: 110%;
+  }
+  span {
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 550px) {
+  .title {
+    font-size: 32px;
+  }
+}

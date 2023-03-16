@@ -1,0 +1,29 @@
+//Global
+@import './global/fonts';
+@import './global/var';
+@import './global/reset';
+@import './global/global';
+
+//Moduls
+@import './moduls/btn';
+@import './moduls/list';
+@import './moduls/title';
+@import './moduls/subtitle';
+@import './moduls/modal';
+@import './moduls/form';
+
+//Sections
+@import './sections/header';
+@import './sections/questions';
+@import './sections/about';
+@import './sections/how';
+@import './sections/result';
+@import './sections/reasons';
+@import './sections/directions';
+@import './sections/results';
+@import './sections/mentors';
+@import './sections/schedule';
+@import './sections/directions2';
+@import './sections/packages';
+@import './sections/changes';
+@import './sections/footer';

@@ -1,0 +1,95 @@
+// font-family: 'Open Sans',sans-serif;
+// font-family: 'Oswald',sans-serif;
+// font-family: 'Roboto',sans-serif;
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/open_sans.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/open_sans.eot?#iefix') format('embedded-opentype'),
+    /* IE < 9 */ url('../fonts/open_sans.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/open_sans.woff') format('woff'),
+    /* Firefox >= 3.6, any other modern browser */ url('../fonts/open_sans.ttf') format('truetype'),
+    /* Safari, Android, iOS */ url('../fonts/open_sans.svg#open_sans') format('svg'); /* Chrome < 4, Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/open_sans_semibold.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/open_sans_semibold.eot?#iefix') format('embedded-opentype'),
+    /* IE < 9 */ url('../fonts/open_sans_semibold.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/open_sans_semibold.woff') format('woff'),
+    /* Firefox >= 3.6, any other modern browser */ url('../fonts/open_sans_semibold.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */ url('../fonts/open_sans_semibold.svg#open_sans_semibold')
+      format('svg'); /* Chrome < 4, Legacy iOS */
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/open_sans_bold.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/open_sans_bold.eot?#iefix') format('embedded-opentype'),
+    /* IE < 9 */ url('../fonts/open_sans_bold.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/open_sans_bold.woff') format('woff'),
+    /* Firefox >= 3.6, any other modern browser */ url('../fonts/open_sans_bold.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */ url('../fonts/open_sans_bold.svg#open_sans_bold') format('svg'); /* Chrome < 4, Legacy iOS */
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/open_sans_extrabold.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/open_sans_extrabold.eot?#iefix') format('embedded-opentype'),
+    /* IE < 9 */ url('../fonts/open_sans_extrabold.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/open_sans_extrabold.woff') format('woff'),
+    /* Firefox >= 3.6, any other modern browser */ url('../fonts/open_sans_extrabold.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */ url('../fonts/open_sans_extrabold.svg#open_sans_extrabold')
+      format('svg'); /* Chrome < 4, Legacy iOS */
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('../fonts/oswald_extralight.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/oswald_extralight.eot?#iefix') format('embedded-opentype'),
+    /* IE < 9 */ url('../fonts/oswald_extralight.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/oswald_extralight.woff') format('woff'),
+    /* Firefox >= 3.6, any other modern browser */ url('../fonts/oswald_extralight.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */ url('../fonts/oswald_extralight.svg#oswald_extralight') format('svg'); /* Chrome < 4, Legacy iOS */
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('../fonts/oswald_demibold.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/oswald_demibold.eot?#iefix') format('embedded-opentype'),
+    /* IE < 9 */ url('../fonts/oswald_demibold.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/oswald_demibold.woff') format('woff'),
+    /* Firefox >= 3.6, any other modern browser */ url('../fonts/oswald_demibold.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */ url('../fonts/oswald_demibold.svg#oswald_demibold') format('svg'); /* Chrome < 4, Legacy iOS */
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/roboto_regular.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/roboto_regular.eot?#iefix') format('embedded-opentype'),
+    /* IE < 9 */ url('../fonts/roboto_regular.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/roboto_regular.woff') format('woff'),
+    /* Firefox >= 3.6, any other modern browser */ url('../fonts/roboto_regular.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */ url('../fonts/roboto_regular.svg#roboto_regular') format('svg'); /* Chrome < 4, Legacy iOS */
+  font-weight: 400;
+  font-style: normal;
+}

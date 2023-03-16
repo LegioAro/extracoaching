@@ -1,0 +1,135 @@
+.about {
+  margin-bottom: 132px;
+  &__decor {
+    position: relative;
+    &::before,
+    &::after {
+      position: absolute;
+      height: fit-content;
+      width: fit-content;
+      font-family: var(--font-text-2);
+      font-weight: 600;
+      font-size: 211.544px;
+      line-height: 90%;
+      text-transform: uppercase;
+      color: #171c27;
+      opacity: 0.03;
+      transform: rotate(180deg);
+      transform-origin: center;
+      writing-mode: vertical-lr;
+      pointer-events: none;
+    }
+    &::before {
+      content: 'идеальный';
+      left: -120px;
+      top: -63px;
+    }
+    &::after {
+      content: 'баланс';
+      right: -134px;
+      top: 122px;
+    }
+  }
+  &__wrapper {
+    background-color: var(--color-light);
+    box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.04);
+    padding-top: 65px;
+    position: relative;
+    z-index: 1;
+  }
+  &__desc {
+    position: relative;
+    background-color: var(--color-select);
+    padding: 23px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 -52px 83px;
+    &::before,
+    &::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 0;
+      top: 100%;
+      border-top: 45px solid #881912;
+    }
+    &::before {
+      left: 0;
+      border-left: 53px solid transparent;
+    }
+    &::after {
+      right: 0;
+      border-right: 53px solid transparent;
+    }
+
+    p {
+      max-width: 848px;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 155%;
+      color: var(--color-light);
+    }
+  }
+}
+@media (max-width: 1400px) {
+  .about {
+    &__decor {
+      &::before,
+      &::after {
+        font-size: 150px;
+      }
+      &::before {
+        left: -100px;
+      }
+      &::after {
+        right: -100px;
+      }
+    }
+  }
+}
+@media (max-width: 1300px) {
+  .about {
+    &__decor {
+      &::before,
+      &::after {
+        display: none;
+      }
+    }
+  }
+}
+@media (max-width: 1150px) {
+  .about {
+    margin-bottom: 100px;
+    &__desc {
+      margin: 0 -15px 50px;
+      &::before,
+      &::after {
+        border-top: 15px solid #881912;
+      }
+      &::before {
+        border-left: 15px solid transparent;
+      }
+      &::after {
+        border-right: 15px solid transparent;
+      }
+      p {
+        br {
+          display: none;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .about {
+    margin-bottom: 70px;
+  }
+}
+
+@media (max-width: 550px) {
+  .about {
+    padding-top: 50px;
+  }
+}

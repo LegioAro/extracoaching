@@ -1,0 +1,141 @@
+.directions {
+  margin-bottom: 100px;
+
+  &__wrapper {
+    position: relative;
+    z-index: 1;
+  }
+
+  &__title {
+    text-align: center;
+    max-width: 655px;
+    margin: 0 auto 54px;
+  }
+
+  &__items {
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    &:nth-child(even) {
+      flex-direction: row-reverse;
+      .directions__item-info {
+        margin-left: 0;
+        margin-right: 43px;
+      }
+    }
+  }
+
+  &__item-img-block {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  &__item-num {
+    font-family: var(--font-text-2);
+    font-weight: 600;
+    font-size: 58.3333px;
+    line-height: 125%;
+    color: #fefefe;
+    padding: 10px 20px;
+    background-color: var(--color-select);
+    margin-top: 34px;
+  }
+
+  &__item-img {
+    display: flex;
+  }
+
+  &__item-info {
+    width: 100%;
+    max-width: 357px;
+    margin-left: 43px;
+    margin-top: 34px;
+  }
+
+  &__item-title {
+    font-family: var(--font-text-2);
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 125%;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+  }
+
+  &__item-subtitle {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 125%;
+    margin-bottom: 22px;
+  }
+
+  &__item-descs {
+  }
+
+  &__item-desc {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__item-desc-icon {
+    width: 100%;
+    max-width: 30px;
+    margin-right: 24px;
+  }
+
+  &__item-desc-text {
+    font-size: 12px;
+    line-height: 145%;
+  }
+}
+
+@media (max-width: 850px) {
+  .directions {
+    &__item-num {
+      font-size: 40px;
+    }
+    &__item-info {
+      margin-left: 20px;
+    }
+    &__item-desc-icon {
+      margin-right: 15px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .directions {
+    margin-bottom: 70px;
+    &__title {
+      margin-bottom: 30px;
+    }
+    &__item {
+      flex-direction: column;
+      align-items: center;
+      &:nth-child(even) {
+        flex-direction: column;
+        .directions__item-info {
+          margin-left: 0;
+          margin-right: 0;
+        }
+      }
+    }
+    &__item-img {
+      width: 100%;
+      max-width: 250px;
+    }
+    &__item-info {
+      margin-left: 0;
+      margin-top: 20px;
+    }
+  }
+}
